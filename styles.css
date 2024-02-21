@@ -1,0 +1,362 @@
+body{
+    background-color: black;
+}
+.image{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+h1{
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    color: beige;
+    font-size: 400%;
+}
+.head{   
+    position: absolute;
+    top: 0%;
+    left: 3%; 
+    font-weight: 600;   
+    font-size: 650%; 
+}
+.menu{
+    line-height: 0%;
+}
+.main-body{
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #181818;
+}
+.flex-cont{
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    width: 86%;
+    height: 87%;
+    background-color: #181818;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-cont > div{
+    
+    width: 30%;
+    height: 44%;
+    margin: 20px;
+    background-color: #292828;
+    border-radius: 0 0 40px 40px;
+}
+.footer{
+    position: absolute;
+    top: 210%;
+    left: 0%;
+    width: 100%;
+    height: 30%;
+    background-color: #1f1f1f;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: beige;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 150%;
+}
+.lol{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+.bot{
+    position: absolute;
+    bottom: 0%;
+    height: 30px;
+    width: 100%;
+    background-color: #181818;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: rgb(194, 225, 225);
+}
+.cart{
+    position:fixed;
+    top: 20%;
+    left:99%;
+    height: 70%;
+    width: 20%;
+    background-color: rgb(112, 112, 112);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cart:hover{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes slide{
+    from{
+        left:99%;
+    }
+
+    to{
+        left:80%;
+    }
+}
+.circle{
+    position:absolute;
+    top:10%;
+    left:-20%;
+    height: 20%;
+    width: 20%;
+    border-radius: 1000px 0px 0px 1000px;
+    background-color: rgb(112, 112, 112);
+    border-style: solid none solid solid;
+    border-width: 5px;
+    border-color: white;
+}
+.photo{
+    width: 100%;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-style: solid;
+    border-bottom-color: #181818;
+    border-bottom-width: 10px;
+}
+
+.card-title{
+    color: beige;
+    font-family: "Princess Sofia", cursive;
+    font-size: x-large;
+    padding: 10%; 
+    line-height: 240%;
+}
+.cart-title{
+    color: black;
+    position: absolute;
+    top:2%;
+    left:36%;
+    line-height: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.col-25{
+    margin-top: 5px;
+    float: left;
+    width: 70%;
+}
+.col-75{
+    margin-top: 5px;
+    float: left;
+    width: 30%;
+}
+.but{
+    background-color: whitesmoke; /* Green */
+    font-family: "Princess Sofia", cursive;
+    border: none;
+    color: black;
+    padding: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cart-flex{
+    position: absolute;
+    top: 14%;
+    left: 7%;
+    width: 87%;
+    height: 60%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #181818;
+    display: flex;
+    flex-direction: column;
+}
+.cart-flex > div{
+    height: 10%;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #434343;
+    padding-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#butpose{
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    background-color: #181818;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+#price{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    position: absolute;
+    top: 72%;
+    left: 0%;
+    font-weight: bold;
+}
+#icon{
+    position: absolute;
+    color: azure;
+    top: 30%;
+    left: 20%;
+    font-size: 50px;
+}
+.but:hover{
+    background-color: #181818;
+    color: beige;
+}
+.but:active{
+    background-color: white;
+    color: whitesmoke
+}
+#butpose:hover{
+    background-color: beige;
+    color: #181818;
+}
+.confirm{
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    visibility: hidden;
+}
+#confirm-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bold; 
+}
+.form-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 250%;
+}
+.c-30{
+    float: left;
+    width: 30%;
+}
+.c-70{
+    float: left;
+    width: 70%;
+}
+input[type = text],input[type = number]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.order{
+    background-color: black; /* Green */
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    color: whitesmoke;
+    padding: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+.order:hover{
+    background-color: white;
+    color: black;
+}
+.task-flex{
+    position: absolute;
+    background-color: #1f1f1f1f;
+    display: flex;
+    top: 0%;
+    left: 22.5%;
+    height: 100%;
+    width: 56%;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.task-flex > div{
+    width: 33%;
+    background-color: #1f1f1f;
+    margin: 6px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: beige;
+    border-radius: 5px;
+    color: beige;
+    font-family: "Princess Sofia", cursive;
+    font-size: x-large;
+    text-align: center;
+    line-height: 50px;
+}
+.task-flex > div:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.task-flex > div:active{
+    background-color: beige;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.taskbar{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    height: 9%;
+    width: 50%;
+    background-color: #1f1f1f;
+    border-radius: 0 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#cake{
+    position: absolute;
+    top: 15%;
+    left: 12.5%;
+    color: beige;
+    font-size: 42px;
+}
+#cake1{
+    position: absolute;
+    top: 15%;
+    left: 82.5%;
+    color: beige;
+    font-size: 42px;
+}
